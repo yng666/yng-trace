@@ -26,6 +26,6 @@
                 "trace": "src/config.php"
             }
         }
-    },    
+    },
     "minimum-stability": "dev"
 }
