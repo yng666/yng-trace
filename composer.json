@@ -10,7 +10,7 @@
     ],
     "require": {
     	"php": ">=7.1.0",
-        "yng/framework": "*"
+        "yng/framework": "dev-main"
     },
     "autoload": {
         "psr-4": {
