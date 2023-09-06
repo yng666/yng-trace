@@ -4,8 +4,8 @@
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "Yng",
-            "email": "840638148@qq.com"
+            "name": "YNG",
+            "email": "xxxxxx@qq.com"
         }
     ],
     "require": {
@@ -26,7 +26,7 @@
                 "trace": "src/config.php"
             }
         }
-    },
+    },    
     "minimum-stability": "dev",
     "prefer-stable": true
 }

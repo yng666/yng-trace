@@ -78,7 +78,7 @@ class TraceDebug
 
         unset($config['type']);
 
-        $trace = App::factory($type, '\\Yng\\trace\\', $config);
+        $trace = App::factory($type, '\\Yng\\Trace\\', $config);
 
         if ($response instanceof Redirect) {
             //TODO 记录
