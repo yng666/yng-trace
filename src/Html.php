@@ -94,7 +94,9 @@ class Html
         }
         // 调用Trace页面模板
         ob_start();
-        include $this->config['file'] ?: __DIR__ . '/tpl/page_trace.tpl';
+        if(($app->debug() && ($trace && count($trace['错误']))) || $app->config->get('app.show_error_msg')){
+            include $this->config['file'] ?: __DIR__ . '/tpl/page_trace.tpl';
+        }
         return ob_get_clean();
     }
 
